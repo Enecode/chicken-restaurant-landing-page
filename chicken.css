@@ -1,20 +1,28 @@
-.container {
-    background-image: url(images/chicken.png);
-    width: 100%;
-    height: 100%;
-    padding: 7px;
+body {
+    margin: 0;
 }
 
+/* give the background an images, define the width, margin and padding.*/
+.container {
+    background-image: url(images/chicken.png);
+    width: 1170px;
+    padding: 0 35px;
+    margin: 0 auto;
+}
+
+/* Positioned the logo to the left with a width of 50px to make it small */ 
 .site-logo {
     float: right;
     width: 50px;
 }
 
-.head {
+/* give the site title and logo a magin and padding a the bottom*/
+.header {
     margin-bottom: 25px;
     padding-bottom: 25px;
 }
 
+/*Style the div to create a red line defining the position, width and height. */
 .redline {
     top: 271px;
     left: 89px;
@@ -27,38 +35,44 @@
     margin: auto;
 }
 
-
+/* Give the h1 a font, font-size and font-weight */
 h1 {
     font-family: Arial, sans-serif;
     font: bold;
     font-weight: 500px;
 }
 
+/*style the about section to give it a gap between the red line. */
 .about {
     margin-top: 45px;
     position:absolute;
     top: 88px;
-    left: 50px;
+    left: 100px;
     height: 68px;
 }
 
-.p3 {
-    position: absolute;
-    left: 50px;
-    margin: auto;
-}
-
+/*Style the main text*/
 .title-head {
     font: 500;
     font-family: 'arial';
     font-weight: bold;
 }
 
-.p2 {
+
+/*Style the paragraph to align with the main text. */
+.p3 {
     position: absolute;
-    left: 50px;
+    left: 100px;
+    margin: auto;
 }
 
+/*Style the paragraph to align with the main text. */
+.p2 {
+    position: absolute;
+    left: 100px;
+}
+
+/*Style the first Redline.*/
 .long {
     top: 271px;
     left: 89px;
@@ -68,6 +82,8 @@ h1 {
     opacity: 1;
     
 }
+
+/*Style the second redline.*/
 .small {
     top: 617px;
     left: 89px;
@@ -78,15 +94,19 @@ h1 {
     border: 10px solid #d85a5a;
 }
 
+/*Style the paragraphs to give it color and opacity*/
 .p1, .p2, .p3 {
     color: darkred;
     opacity: 0.5;
 }
 
+
+/*Style the menu buttons to give it a border background width and margin*/
 .menu-button {
     border-radius: 60px;
     margin-top: 35px;
     color: #FFFFFF;
+    left: 100px;
     width: 100px;
     padding: 10px;
     background-color: #d85a5a;
@@ -94,6 +114,8 @@ h1 {
     font-size: 10px;
 }
 
+
+/*Style book table to be the same with menu button*/
 .book-table {
     margin-left: 15px;
     border-radius: 60px;
@@ -108,33 +130,39 @@ h1 {
     font-size: 10px;
 }
 
+/*Style the two buttons to give it a position*/
 .buttons {
     position: relative;
-    left: 50px;
+    left: 60px;
     
 }
 
+/*Style the lunch to give it a font size and margin*/
 .lunch {
     font-size: medium;
     margin: auto;  
     
 }
 
+/*Style the time to give it font size, color and opacity*/
 .time {
     font-size: small;
     color: darkred; 
     opacity: 0.5;      
 }
 
+/*Style the lunch and time to give it font size, position and margin at the top*/
 .lunch-time {
     font-size: 3px;
     position: relative;
-    left: 50px;
+    left: 60px;
     margin-top: 25px;
 }
 
+/*Style the arrow button to give it a position and margin*/
 .arrow {
     position: relative;
     left: 75px;
     margin: auto;
 }
+
