@@ -5,7 +5,6 @@ body {
 /* give the background an images, define the width, margin and padding.*/
 .container {
     background-image: url(images/chicken.png);
-    width: 1170px;
     padding: 0 35px;
     margin: 0 auto;
 }
@@ -166,3 +165,23 @@ h1 {
     margin: auto;
 }
 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    body, .container {
+        width: 80%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body, .container {
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body, .container {
+        width: 100%;
+    }
+}
