@@ -1,2 +1,3 @@
 "# chicken-restaurant-landing-page" 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Enecode)](https://github.com/Enecode/github-readme-stats)
+[![Jacob's GitHub stats](https://github-readme-stats.vercel.app/api?username=enecode)](https://github.com/enecode/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=enecode&repo=github-readme-stats)](https://github.com/enecode/github-readme-stats)
